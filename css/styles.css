@@ -1,12 +1,21 @@
+
 ul, 
 ol {
-    list-style-position: inside;
+ 
     padding-left: 0;
 }
 
-ul li, 
-ol li {
+.recipe ul li, 
+.recipe ol li {
     margin-bottom: 5px;
+}
+
+.main ul li{
+    margin-bottom: 20px;
+}
+
+ol li {
+    list-style-position: inside;
 }
 
 
@@ -36,9 +45,7 @@ a {
     font-size: 25px;
 }
 
-main li{
-    margin-bottom: 20px;
-}
+
 
 img {
     height: auto;
